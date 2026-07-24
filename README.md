@@ -4,22 +4,26 @@ Backend study and research for a hospital appointment management system using Fa
 
 # Hospital Appointment Management System
 
-This repository contains my study and research for the **Backend Appointment Management Module** of a Hospital Information Management System (HIMS).
+## Overview
 
-The purpose of this repository is to understand how a real-world hospital appointment system is designed before implementing it using FastAPI and PostgreSQL.
+This repository contains the design and documentation for the **Hospital Appointment Management System**. The project focuses on understanding how an appointment management module is designed using backend concepts before implementation with FastAPI and PostgreSQL.
 
-## Assignment Topics
+The repository includes workflow analysis, database design, ER diagrams, REST API documentation, business rules, authentication, and system architecture.
 
-- Appointment Workflow
-- Database Design
-- Database Relationships
-- Business Rules
-- REST API Design
-- Search & Filtering
-- Authentication & Authorization
-- Error Handling
-- FastAPI Project Structure
-- Performance & Scalability
+---
+
+## Project Objectives
+
+- Understand the appointment booking lifecycle
+- Design a normalized relational database
+- Create an Entity Relationship (ER) diagram
+- Define business rules for appointment management
+- Design RESTful APIs
+- Study authentication and authorization
+- Organize a scalable FastAPI project structure
+- Document search, filtering, error handling, and performance considerations
+
+---
 
 ## Technologies
 
@@ -27,30 +31,73 @@ The purpose of this repository is to understand how a real-world hospital appoin
 - FastAPI
 - PostgreSQL
 - SQLAlchemy
-- Alembic
 - Pydantic
+- JWT Authentication
+- Draw.io
+- DBDiagram.io
+
+---
 
 ## Repository Structure
 
 ```
-docs/          -> Research notes and documentation
-database/      -> Database schema and SQL
-api/           -> REST API documentation
-diagrams/      -> Workflow and ER diagrams
-backend/       -> Backend implementation (to be added)
-assets/        -> Images and screenshots
+hospital-appointment-management/
+│
+├── README.md
+│
+├── docs/
+│   ├── appointment-workflow.md
+│   ├── database-design.md
+│   ├── business-rules.md
+│   ├── authentication.md
+│   ├── project-structure.md
+│   ├── search-filtering.md
+│   ├── error-handling.md
+│   └── performance.md
+│
+├── database/
+│   ├── schema.sql
+│   └── relationships.md
+│
+├── api/
+│   └── endpoints.md
+│
+├── diagrams/
+│   ├── appointment-workflow.png
+│   └── er-diagram.png
+│
+├── backend/
+└── assets/
 ```
 
-## Progress
+---
 
-- [x] Repository setup
-- [x] Project structure
-- [ ] Appointment workflow
-- [ ] Database design
-- [ ] ER diagram
-- [ ] Business rules
-- [ ] REST API documentation
-- [ ] Authentication
-- [ ] Performance study
+## Project Features
 
-This repository will be updated as I complete each section of the assignment.
+- Patient Registration
+- Department and Doctor Management
+- Appointment Booking
+- Appointment Cancellation and Rescheduling
+- Appointment Workflow Documentation
+- Database Schema Design
+- Entity Relationship Diagram
+- REST API Design
+- Authentication and Authorization
+- Business Rules
+- Search and Filtering
+- Error Handling
+- Performance and Scalability Documentation
+
+---
+
+## Project Status
+
+**Status:** Completed (Documentation Phase)
+
+The project currently includes the complete system design and documentation for the Hospital Appointment Management Module. The backend implementation using FastAPI and PostgreSQL can be developed based on this design.
+
+---
+
+## Author
+
+**Shukla Aastha**
