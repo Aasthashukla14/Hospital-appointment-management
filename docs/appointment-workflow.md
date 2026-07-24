@@ -49,3 +49,12 @@ A patient may cancel an appointment before the consultation. Once cancelled, the
 ## Rescheduling
 
 Instead of cancelling, the patient may choose a different available date and time. The system updates the appointment and sends a new confirmation.
+
+
+---
+
+# Appointment Workflow Diagram
+
+The following diagram illustrates the complete lifecycle of an appointment, from patient registration to appointment completion, including cancellation and rescheduling options.
+
+![Appointment Workflow](../diagrams/appointment-workflow.png)
