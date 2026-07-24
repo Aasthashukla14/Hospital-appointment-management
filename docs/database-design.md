@@ -95,3 +95,11 @@ The Appointment entity records every appointment booked in the hospital system. 
 - created_at
 
 Each appointment belongs to one patient, one doctor, and one department.
+
+---
+
+# Entity Relationship Diagram
+
+The following ER diagram illustrates the relationships between the Department, Doctor, Patient, and Appointment entities used in the Hospital Appointment Management System.
+
+![ER Diagram](../diagrams/ER diagram.png)
