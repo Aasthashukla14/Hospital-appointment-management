@@ -50,3 +50,24 @@ The Doctor entity stores information about doctors working in different departme
 - status
 
 Each doctor belongs to one department.
+
+---
+
+## Patient Entity
+
+The Patient entity stores personal and contact information of registered patients. Each patient is identified by a unique UHID (Unique Hospital ID), which is used throughout the hospital system.
+
+### Attributes
+
+- id (Primary Key)
+- uhid (Unique)
+- first_name
+- last_name
+- gender
+- date_of_birth
+- phone
+- email
+- address
+- status
+
+A patient can book multiple appointments with different doctors.

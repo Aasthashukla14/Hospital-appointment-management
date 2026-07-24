@@ -20,3 +20,17 @@ CREATE TABLE doctors (
     FOREIGN KEY (department_id)
         REFERENCES departments(id)
 );
+
+
+CREATE TABLE patients (
+    id UUID PRIMARY KEY,
+    uhid VARCHAR(20) UNIQUE NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50),
+    gender VARCHAR(10),
+    date_of_birth DATE,
+    phone VARCHAR(15),
+    email VARCHAR(100),
+    address TEXT,
+    status VARCHAR(20) DEFAULT 'Active'
+);
