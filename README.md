@@ -61,7 +61,7 @@ The workflow below illustrates the complete appointment lifecycle from patient r
 The ER diagram represents the relationships between Departments, Doctors, Patients, and Appointments.
 
 <p align="center">
-  <img src="diagrams/ER-diagram.png" alt="ER Diagram" width="900">
+  <img src="diagrams/ER diagram.png" alt="ER Diagram" width="900">
 </p>
 
 ---
