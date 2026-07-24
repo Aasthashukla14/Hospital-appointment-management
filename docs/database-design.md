@@ -71,3 +71,27 @@ The Patient entity stores personal and contact information of registered patient
 - status
 
 A patient can book multiple appointments with different doctors.
+
+---
+
+## Appointment Entity
+
+The Appointment entity records every appointment booked in the hospital system. It connects patients, doctors, and departments through foreign keys.
+
+### Attributes
+
+- id (Primary Key)
+- appointment_number (Unique)
+- patient_id (Foreign Key)
+- doctor_id (Foreign Key)
+- department_id (Foreign Key)
+- appointment_date
+- appointment_time
+- duration_minutes
+- appointment_type
+- priority
+- reason
+- status
+- created_at
+
+Each appointment belongs to one patient, one doctor, and one department.
